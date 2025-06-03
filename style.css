@@ -84,15 +84,14 @@ margin :  10% 10% 10% 10%;
 }
 #chaticon{
 position: fixed;
-right:15%;
-bottom: 10rem;
-border: rgb(7, 26, 7) solid;
-border-radius: 20%;
-background-color: rgb(226, 236, 236);
- animation: mymove 10s infinite;
+right:10%;
+bottom: 7rem;
+border: rgb(122, 103, 61) solid;
+background-color: rgb(201, 179, 109);
+animation: mymove 10s infinite;
 }
 
 @keyframes mymove {
-  from {background-color: rgb(7, 247, 147);}
+  from {background-color: rgb(121, 96, 43);}
   to {background-color: rgb(156, 235, 9);}
 }
